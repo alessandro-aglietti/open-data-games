@@ -1,0 +1,911 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30'>
+		<s:AttributeType name='IDProtocollo' rs:number='1' rs:writeunknown='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='TipoPersona' rs:number='2' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='AANascita' rs:number='3' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='Sesso' rs:number='4' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='1'/>
+		</s:AttributeType>
+		<s:AttributeType name='TipoLesione' rs:number='5' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='Deceduto' rs:number='6' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='boolean' dt:maxLength='2' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='DecedutoDopo' rs:number='7' rs:nullable='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row IDProtocollo='1945037' TipoPersona='Pedone' AANascita='1933' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946442' TipoPersona='Pedone' AANascita='1936' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946523' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946813' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941161' TipoPersona='Pedone' AANascita='1994' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941586' TipoPersona='Pedone' AANascita='1952' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941906' TipoPersona='Pedone' AANascita='1982' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942030' TipoPersona='Pedone' AANascita='1960' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942064' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944524' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947470' TipoPersona='Pedone' AANascita='1960' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947687' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944089' TipoPersona='Pedone' AANascita='1941' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942725' TipoPersona='Pedone' AANascita='1951' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944452' TipoPersona='Pedone' AANascita='1968' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942178' TipoPersona='Pedone' AANascita='1985' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943859' TipoPersona='Pedone' AANascita='1955' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940584' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945524' TipoPersona='Pedone' AANascita='1931' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941451' TipoPersona='Pedone' AANascita='1993' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945481' TipoPersona='Pedone' AANascita='1935' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943808' TipoPersona='Pedone' AANascita='1947' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943728' TipoPersona='Pedone' AANascita='1946' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='1968' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940817' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940825' TipoPersona='Pedone' AANascita='1969' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940679' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941153' TipoPersona='Pedone' AANascita='1965' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941295' TipoPersona='Pedone' AANascita='1961' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944027' TipoPersona='Pedone' AANascita='1995' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942582' TipoPersona='Pedone' AANascita='1994' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942781' TipoPersona='Pedone' AANascita='1964' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945254' TipoPersona='Pedone' AANascita='1993' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941838' TipoPersona='Pedone' AANascita='1960' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945413' TipoPersona='Pedone' AANascita='1936' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945591' TipoPersona='Pedone' AANascita='1936' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943699' TipoPersona='Pedone' AANascita='1991' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943486' TipoPersona='Pedone' AANascita='1940' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940901' TipoPersona='Pedone' AANascita='1934' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943675' TipoPersona='Pedone' AANascita='1950' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943523' TipoPersona='Pedone' AANascita='1967' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941917' TipoPersona='Pedone' AANascita='1979' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942302' TipoPersona='Pedone' AANascita='1991' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942269' TipoPersona='Pedone' AANascita='1993' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942587' TipoPersona='Pedone' AANascita='1932' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942414' TipoPersona='Pedone' AANascita='1948' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947499' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945041' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944356' TipoPersona='Pedone' AANascita='1952' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944508' TipoPersona='Pedone' AANascita='1921' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944340' TipoPersona='Pedone' AANascita='1977' Sesso='' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942568' TipoPersona='Pedone sconosciuto' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941343' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941786' TipoPersona='Pedone' AANascita='1982' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945705' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946738' TipoPersona='Pedone' AANascita='1932' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944535' TipoPersona='Pedone' AANascita='1954' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945832' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946341' TipoPersona='Pedone' AANascita='1982' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944896' TipoPersona='Pedone' AANascita='1971' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946398' TipoPersona='Pedone' AANascita='1940' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946566' TipoPersona='Pedone' AANascita='1957' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947231' TipoPersona='Pedone' AANascita='1954' Sesso='F' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947152' TipoPersona='Pedone' AANascita='1936' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946418' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947064' TipoPersona='Pedone' AANascita='1936' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941081' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941815' TipoPersona='Pedone' AANascita='1950' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942076' TipoPersona='Pedone' AANascita='1965' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944605' TipoPersona='Pedone' AANascita='1967' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946772' TipoPersona='Pedone' AANascita='1948' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946923' TipoPersona='Pedone' AANascita='1933' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946795' TipoPersona='Pedone' AANascita='1936' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='1969' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943258' TipoPersona='Pedone' AANascita='1975' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943679' TipoPersona='Pedone' AANascita='1990' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943851' TipoPersona='Pedone' AANascita='1951' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943446' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943912' TipoPersona='Pedone' AANascita='1950' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942165' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942703' TipoPersona='Pedone' AANascita='1999' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942688' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940548' TipoPersona='Pedone' AANascita='1973' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940453' TipoPersona='Pedone' AANascita='1966' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940661' TipoPersona='Pedone' AANascita='1969' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945207' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945175' TipoPersona='Pedone' AANascita='1983' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944325' TipoPersona='Pedone' AANascita='1943' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945906' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945203' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945971' TipoPersona='Pedone' AANascita='1929' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946105' TipoPersona='Pedone' AANascita='1991' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='1964' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946736' TipoPersona='Pedone' AANascita='1996' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943226' TipoPersona='Pedone' AANascita='1947' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944545' TipoPersona='Pedone' AANascita='1944' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941008' TipoPersona='Pedone' AANascita='2000' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944790' TipoPersona='Pedone' AANascita='2002' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944932' TipoPersona='Pedone' AANascita='2007' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945403' TipoPersona='Pedone' AANascita='1973' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942423' TipoPersona='Pedone' AANascita='1965' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945897' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940776' TipoPersona='Pedone' AANascita='1967' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943283' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942306' TipoPersona='Pedone' AANascita='1987' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941087' TipoPersona='Pedone' AANascita='1973' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940683' TipoPersona='Pedone' AANascita='1974' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942654' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942612' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943181' TipoPersona='Pedone' AANascita='1963' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947190' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943618' TipoPersona='Pedone' AANascita='1956' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942780' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946383' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946854' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946757' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1940973' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947590' TipoPersona='Pedone' AANascita='1954' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945942' TipoPersona='Pedone' AANascita='2001' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945617' TipoPersona='Pedone' AANascita='1954' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944345' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944218' TipoPersona='Pedone' AANascita='1960' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945840' TipoPersona='Pedone' AANascita='1962' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945092' TipoPersona='Pedone' AANascita='1989' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943901' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946610' TipoPersona='Pedone' AANascita='1933' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946987' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947061' TipoPersona='Pedone' AANascita='1959' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946418' TipoPersona='Pedone' AANascita='2003' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944555' TipoPersona='Pedone' AANascita='1964' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942833' TipoPersona='Pedone' AANascita='1955' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940692' TipoPersona='Pedone' AANascita='1940' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941613' TipoPersona='Pedone' AANascita='1965' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941613' TipoPersona='Pedone' AANascita='2000' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941727' TipoPersona='Pedone' AANascita='1986' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942106' TipoPersona='Pedone' AANascita='1978' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942106' TipoPersona='Pedone' AANascita='2009' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946727' TipoPersona='Pedone' AANascita='1990' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944524' TipoPersona='Pedone' AANascita='2007' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944524' TipoPersona='Pedone' AANascita='2012' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944190' TipoPersona='Pedone' AANascita='1983' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943898' TipoPersona='Pedone' AANascita='1985' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942386' TipoPersona='Pedone' AANascita='1991' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944166' TipoPersona='Pedone' AANascita='1947' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941267' TipoPersona='Pedone' AANascita='1992' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944365' TipoPersona='Pedone' AANascita='1991' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940661' TipoPersona='Pedone' AANascita='1970' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941237' TipoPersona='Pedone' AANascita='1945' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946837' TipoPersona='Pedone' AANascita='1932' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941895' TipoPersona='Pedone' AANascita='1983' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941268' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944654' TipoPersona='Pedone' AANascita='1951' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942638' TipoPersona='Pedone' AANascita='1982' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944105' TipoPersona='Pedone' AANascita='1989' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945114' TipoPersona='Pedone' AANascita='1992' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945273' TipoPersona='Pedone' AANascita='1933' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945192' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943635' TipoPersona='Pedone' AANascita='1981' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945480' TipoPersona='Pedone' AANascita='1976' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943355' TipoPersona='Pedone' AANascita='2009' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943829' TipoPersona='Pedone' AANascita='1984' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942872' TipoPersona='Pedone' AANascita='1940' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942127' TipoPersona='Pedone' AANascita='1979' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942710' TipoPersona='Pedone' AANascita='1986' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941210' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942849' TipoPersona='Pedone' AANascita='1965' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941973' TipoPersona='Pedone' AANascita='2004' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941862' TipoPersona='Pedone' AANascita='1942' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942403' TipoPersona='Pedone' AANascita='1946' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942744' TipoPersona='Pedone' AANascita='1938' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945953' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947501' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947665' TipoPersona='Pedone' AANascita='1941' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944587' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946373' TipoPersona='Pedone' AANascita='2009' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944435' TipoPersona='Pedone' AANascita='1953' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944473' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945961' TipoPersona='Pedone' AANascita='1925' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947196' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1940434' TipoPersona='Pedone' AANascita='1975' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946041' TipoPersona='Pedone' AANascita='1954' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946461' TipoPersona='Pedone' AANascita='1936' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945998' TipoPersona='Pedone' AANascita='1948' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945749' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946599' TipoPersona='Pedone' AANascita='1923' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944447' TipoPersona='Pedone' AANascita='1953' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946543' TipoPersona='Pedone' AANascita='1942' Sesso='M' TipoLesione='Deceduto durante trasporto'
+		 Deceduto='True'/>
+	<z:row IDProtocollo='1947215' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942483' TipoPersona='Pedone' AANascita='1943' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945760' TipoPersona='Pedone' AANascita='1965' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='1987' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941318' TipoPersona='Pedone' AANascita='1980' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941637' TipoPersona='Pedone' AANascita='1968' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940866' TipoPersona='Pedone' AANascita='1945' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941852' TipoPersona='Pedone' AANascita='1963' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941911' TipoPersona='Pedone' AANascita='1950' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945497' TipoPersona='Pedone' AANascita='1982' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946783' TipoPersona='Pedone' AANascita='1989' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943411' TipoPersona='Pedone' AANascita='1928' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947468' TipoPersona='Pedone' AANascita='1963' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947576' TipoPersona='Pedone' AANascita='1923' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942083' TipoPersona='Pedone' AANascita='1951' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940421' TipoPersona='Pedone' AANascita='1961' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='DECEDUTO ENTRO 15 GIORNI'/>
+	<z:row IDProtocollo='1943426' TipoPersona='Pedone' AANascita='1976' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945378' TipoPersona='Pedone' AANascita='1950' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945747' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945772' TipoPersona='Pedone' AANascita='1980' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945678' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944363' TipoPersona='Pedone' AANascita='1947' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946771' TipoPersona='Pedone' AANascita='1994' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945651' TipoPersona='Pedone' AANascita='1979' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946684' TipoPersona='Pedone' AANascita='1956' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940930' TipoPersona='Pedone' AANascita='1965' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940891' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941355' TipoPersona='Pedone' AANascita='1929' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941249' TipoPersona='Pedone' AANascita='1963' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944224' TipoPersona='Pedone' AANascita='1939' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944236' TipoPersona='Pedone' AANascita='1947' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944612' TipoPersona='Pedone' AANascita='1927' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944569' TipoPersona='Pedone' AANascita='1997' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944859' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943697' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940294' TipoPersona='Pedone' AANascita='2003' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944301' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945664' TipoPersona='Pedone' AANascita='1928' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941817' TipoPersona='Pedone' AANascita='1957' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941916' TipoPersona='Pedone' AANascita='1959' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942062' TipoPersona='Pedone' AANascita='1933' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942748' TipoPersona='Pedone' AANascita='1978' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942304' TipoPersona='Pedone' AANascita='1930' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940819' TipoPersona='Pedone' AANascita='1955' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945072' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943875' TipoPersona='Pedone' AANascita='1929' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944404' TipoPersona='Pedone' AANascita='1953' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942837' TipoPersona='Pedone' AANascita='1957' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946311' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945556' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945469' TipoPersona='Pedone' AANascita='2001' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946203' TipoPersona='Pedone' AANascita='1958' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945853' TipoPersona='Pedone' AANascita='1996' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946511' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946472' TipoPersona='Pedone' AANascita='1997' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945651' TipoPersona='Pedone' AANascita='2013' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946617' TipoPersona='Pedone' AANascita='1983' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941514' TipoPersona='Pedone' AANascita='1997' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940735' TipoPersona='Pedone' AANascita='1989' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941594' TipoPersona='Pedone' AANascita='1967' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946461' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946893' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946376' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947644' TipoPersona='Pedone' AANascita='1963' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947646' TipoPersona='Pedone' AANascita='1967' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943879' TipoPersona='Pedone' AANascita='2001' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941586' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944016' TipoPersona='Pedone' AANascita='1999' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942386' TipoPersona='Pedone' AANascita='1992' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942682' TipoPersona='Pedone' AANascita='1958' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944196' TipoPersona='Pedone' AANascita='1941' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940282' TipoPersona='Pedone' AANascita='1965' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940727' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941060' TipoPersona='Pedone' AANascita='1989' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945969' TipoPersona='Pedone' AANascita='1987' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943075' TipoPersona='Pedone' AANascita='1951' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945985' TipoPersona='Pedone' AANascita='1964' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945167' TipoPersona='Pedone' AANascita='1942' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946079' TipoPersona='Pedone' AANascita='2008' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944127' TipoPersona='Pedone' AANascita='1941' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944493' TipoPersona='Pedone' AANascita='1989' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943963' TipoPersona='Pedone' AANascita='1954' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942425' TipoPersona='Pedone' AANascita='1960' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945162' TipoPersona='Pedone' AANascita='1994' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944343' TipoPersona='Pedone' AANascita='1968' Sesso='F' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944394' TipoPersona='Pedone' AANascita='1950' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943204' TipoPersona='Pedone' AANascita='1967' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942127' TipoPersona='Pedone' AANascita='1971' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941745' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942240' TipoPersona='Pedone' AANascita='1932' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941803' TipoPersona='Pedone' AANascita='1953' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941991' TipoPersona='Pedone' AANascita='1966' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940568' TipoPersona='Pedone' AANascita='1938' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942269' TipoPersona='Pedone' AANascita='1994' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942529' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942557' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941862' TipoPersona='Pedone' AANascita='1936' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947196' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946697' TipoPersona='Pedone' AANascita='1977' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942503' TipoPersona='Pedone' AANascita='2003' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941004' TipoPersona='Pedone' AANascita='1983' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946234' TipoPersona='Pedone' AANascita='1961' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941340' TipoPersona='Pedone' AANascita='1962' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943479' TipoPersona='Pedone' AANascita='1985' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946640' TipoPersona='Pedone' AANascita='1986' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944855' TipoPersona='Pedone' AANascita='1950' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947203' TipoPersona='Pedone' AANascita='2009' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941429' TipoPersona='Pedone' AANascita='1977' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941562' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941081' TipoPersona='Pedone' AANascita='1985' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941906' TipoPersona='Pedone' AANascita='1963' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945290' TipoPersona='Pedone' AANascita='1957' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946399' TipoPersona='Pedone' AANascita='1975' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947389' TipoPersona='Pedone' AANascita='1977' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945351' TipoPersona='Pedone' AANascita='1940' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941631' TipoPersona='Pedone' AANascita='1932' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946090' TipoPersona='Pedone' AANascita='1943' Sesso='F' TipoLesione='Deceduto sul posto'
+		 Deceduto='True'/>
+	<z:row IDProtocollo='1943749' TipoPersona='Pedone' AANascita='1982' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943932' TipoPersona='Pedone' AANascita='1959' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944180' TipoPersona='Pedone' AANascita='1999' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944406' TipoPersona='Pedone' AANascita='1958' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942178' TipoPersona='Pedone' AANascita='1980' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940470' TipoPersona='Pedone' AANascita='1938' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940505' TipoPersona='Pedone' AANascita='1953' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940620' TipoPersona='Pedone' AANascita='1956' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944343' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945261' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946245' TipoPersona='Pedone' AANascita='1960' Sesso='' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945635' TipoPersona='Pedone' AANascita='1981' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946620' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945782' TipoPersona='Pedone' AANascita='1918' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940575' TipoPersona='Pedone' AANascita='1988' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940926' TipoPersona='Pedone' AANascita='1956' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940645' TipoPersona='Pedone' AANascita='1951' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941153' TipoPersona='Pedone' AANascita='1970' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944449' TipoPersona='Pedone' AANascita='1981' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942469' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942775' TipoPersona='Pedone' AANascita='1977' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944859' TipoPersona='Pedone' AANascita='1966' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944105' TipoPersona='Pedone' AANascita='1972' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941838' TipoPersona='Pedone' AANascita='1960' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945188' TipoPersona='Pedone' AANascita='1965' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943147' TipoPersona='Pedone' AANascita='1962' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942668' TipoPersona='Pedone' AANascita='2004' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940690' TipoPersona='Pedone' AANascita='1975' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942946' TipoPersona='Pedone' AANascita='1970' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942135' TipoPersona='Pedone' AANascita='1972' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943684' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941541' TipoPersona='Pedone' AANascita='1997' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943391' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942063' TipoPersona='Pedone' AANascita='1929' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941803' TipoPersona='Pedone' AANascita='2004' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942149' TipoPersona='Pedone' AANascita='1968' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945422' TipoPersona='Pedone' AANascita='1974' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944966' TipoPersona='Pedone' AANascita='1947' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947333' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941706' TipoPersona='Pedone' AANascita='1970' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945092' TipoPersona='Pedone' AANascita='1967' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941564' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946868' TipoPersona='Pedone' AANascita='1934' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945679' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942737' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947256' TipoPersona='Pedone' AANascita='1923' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947149' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947178' TipoPersona='Pedone' AANascita='1931' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947194' TipoPersona='Pedone' AANascita='1937' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943860' TipoPersona='Pedone' AANascita='1943' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947325' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941467' TipoPersona='Pedone' AANascita='1982' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941427' TipoPersona='Pedone' AANascita='1990' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941709' TipoPersona='Pedone' AANascita='1939' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941596' TipoPersona='Pedone' AANascita='1962' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941670' TipoPersona='Pedone' AANascita='1942' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941953' TipoPersona='Pedone' AANascita='1935' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942017' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946877' TipoPersona='Pedone' AANascita='1929' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944157' TipoPersona='Pedone' AANascita='1949' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947531' TipoPersona='Pedone' AANascita='1998' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947292' TipoPersona='Pedone' AANascita='1986' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945103' TipoPersona='Pedone' AANascita='1948' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942236' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942165' TipoPersona='Pedone' AANascita='1980' Sesso='M' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941320' TipoPersona='Pedone' AANascita='1982' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940371' TipoPersona='Pedone' AANascita='1964' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='DECEDUTO DA 13 A 24 ORE DOPO'/>
+	<z:row IDProtocollo='1941022' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940946' TipoPersona='Pedone' AANascita='1932' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940351' TipoPersona='Pedone' AANascita='1957' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941284' TipoPersona='Pedone' AANascita='1997' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941343' TipoPersona='Pedone' AANascita='2006' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942014' TipoPersona='Pedone' AANascita='1991' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945926' TipoPersona='Pedone' AANascita='1948' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942408' TipoPersona='Pedone' AANascita='1999' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946160' TipoPersona='Pedone' AANascita='1969' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943902' TipoPersona='Pedone' AANascita='1962' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944207' TipoPersona='Pedone' AANascita='1961' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944997' TipoPersona='Pedone' AANascita='1953' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942676' TipoPersona='Pedone' AANascita='1933' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945072' TipoPersona='Pedone' AANascita='1997' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945156' TipoPersona='Pedone' AANascita='1974' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942737' TipoPersona='Pedone' AANascita='1971' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945664' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943244' TipoPersona='Pedone' AANascita='1990' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942739' TipoPersona='Pedone' AANascita='1978' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943538' TipoPersona='Pedone' AANascita='1938' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942740' TipoPersona='Pedone' AANascita='1985' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941817' TipoPersona='Pedone' AANascita='2009' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941817' TipoPersona='Pedone' AANascita='1946' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942167' TipoPersona='Pedone' AANascita='1974' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940921' TipoPersona='Pedone' AANascita='1969' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1998' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944319' TipoPersona='Pedone' AANascita='1968' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943653' TipoPersona='Pedone' AANascita='1988' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942603' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941973' TipoPersona='Pedone' AANascita='1979' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943653' TipoPersona='Pedone' AANascita='1973' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943030' TipoPersona='Pedone' AANascita='1979' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946647' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941930' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945604' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945825' TipoPersona='Pedone' AANascita='1971' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1941073' TipoPersona='Pedone' AANascita='1994' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1946477' TipoPersona='Pedone' AANascita='1977' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947156' TipoPersona='Pedone' AANascita='1946' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944366' TipoPersona='Pedone' AANascita='2009' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943357' TipoPersona='Pedone' AANascita='1986' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941318' TipoPersona='Pedone' AANascita='2006' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941514' TipoPersona='Pedone' AANascita='1963' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940866' TipoPersona='Pedone' AANascita='1950' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946193' TipoPersona='Pedone' AANascita='1995' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946317' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1946877' TipoPersona='Pedone' AANascita='1941' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942916' TipoPersona='Pedone' AANascita='1941' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947148' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947511' TipoPersona='Pedone' AANascita='1960' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947612' TipoPersona='Pedone' AANascita='2003' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1947103' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941644' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942957' TipoPersona='Pedone' AANascita='1975' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941934' TipoPersona='Pedone' AANascita='1986' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944225' TipoPersona='Pedone' AANascita='1939' Sesso='M' TipoLesione='Deceduto durante prime cure'
+		 Deceduto='True'/>
+	<z:row IDProtocollo='1942860' TipoPersona='Pedone' AANascita='1926' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940614' TipoPersona='Pedone' AANascita='1927' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940718' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Prognosi riservata'
+		 Deceduto='False' DecedutoDopo='DECEDUTO ENTRO LE DODICI ORE'/>
+	<z:row IDProtocollo='1940765' TipoPersona='Pedone' AANascita='1941' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941202' TipoPersona='Pedone' AANascita='2000' Sesso='F' TipoLesione='Rifiuta cure immediate'
+		 Deceduto='False' DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945710' TipoPersona='Pedone' AANascita='1974' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943337' TipoPersona='Pedone' AANascita='1987' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945462' TipoPersona='Pedone' AANascita='1957' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944213' TipoPersona='Pedone' AANascita='1944' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944790' TipoPersona='Pedone' AANascita='1981' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940526' TipoPersona='Pedone' AANascita='1927' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944704' TipoPersona='Pedone' AANascita='1952' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943596' TipoPersona='Pedone' AANascita='1978' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940842' TipoPersona='Pedone' AANascita='1975' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944461' TipoPersona='Pedone' AANascita='1975' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942330' TipoPersona='Pedone' AANascita='1940' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942939' TipoPersona='Pedone' AANascita='2004' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942793' TipoPersona='Pedone' AANascita='1996' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940922' TipoPersona='Pedone' AANascita='2000' Sesso='F' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942267' TipoPersona='Pedone' AANascita='1984' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943435' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944043' TipoPersona='Pedone' AANascita='2001' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942022' TipoPersona='Pedone' AANascita='1952' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944270' TipoPersona='Pedone' AANascita='1947' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945561' TipoPersona='Pedone' AANascita='1987' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945561' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945607' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1943355' TipoPersona='Pedone' AANascita='1993' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945774' TipoPersona='Pedone' AANascita='0' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1945620' TipoPersona='Pedone' AANascita='1971' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944310' TipoPersona='Pedone' AANascita='1952' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942803' TipoPersona='Pedone' AANascita='1984' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941918' TipoPersona='Pedone' AANascita='1999' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1940408' TipoPersona='Pedone' AANascita='1964' Sesso='M' TipoLesione='Rimandato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1941997' TipoPersona='Pedone' AANascita='1926' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1942789' TipoPersona='Pedone' AANascita='1950' Sesso='M' TipoLesione='Ricoverato' Deceduto='False'
+		 DecedutoDopo='NON DECEDUTO'/>
+	<z:row IDProtocollo='1944852' TipoPersona='Pedone' AANascita='1939' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942938' TipoPersona='Pedone' AANascita='0' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947470' TipoPersona='Pedone' AANascita='1935' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947452' TipoPersona='Pedone' AANascita='2000' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947494' TipoPersona='Pedone' AANascita='1976' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945866' TipoPersona='Pedone' AANascita='1959' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942627' TipoPersona='Pedone' AANascita='1933' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947038' TipoPersona='Pedone' AANascita='1928' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944181' TipoPersona='Pedone' AANascita='1959' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947662' TipoPersona='Pedone' AANascita='1936' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942364' TipoPersona='Pedone' AANascita='1938' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1943645' TipoPersona='Pedone' AANascita='1923' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1945646' TipoPersona='Pedone' AANascita='1968' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1942840' TipoPersona='Pedone' AANascita='1981' Sesso='M' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1947286' TipoPersona='Pedone' AANascita='1937' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+	<z:row IDProtocollo='1944404' TipoPersona='Pedone' AANascita='1972' Sesso='F' TipoLesione='Illeso' Deceduto='False'/>
+</rs:data>
+</xml>

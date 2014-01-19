@@ -1,0 +1,23 @@
+I file xml_incidenti_1apr-18giu_2013, xml_veicoli_1apr-18giu_2013, xml_pedoni_1apr-18giu_2013
+
+si mettono in collegamento sul campo "IDProtocollo":
+
+xml_pedoni_1apr-18giu_2013
+<z:row IDProtocollo='1945037' TipoPersona='Pedone' AANascita='1933' Sesso='F' TipoLesione='Rimandato' Deceduto='False'
+	 DecedutoDopo='NON DECEDUTO'/>
+
+xml_veicoli_1apr-18giu_2013
+	<z:row IDProtocollo='1945037' Progressivo='1' IDVeicolo='807041' TipoVeicolo='Autovettura privata' StatoVeicolo='In marcia'
+		 Marca='Fiat' Modello='Punto'/>
+
+xml_incidenti_1apr-18giu_2013		
+		<z:row ID='1945037' Gruppo='15' DataOraIncidente='2013-05-21T10:15:00' Localizzazione1='Strada Urbana' Localizzazione2='da specificare'
+			 Strada1='VIA POGGIO VERDE' DaSpecificare='in prossimità del fronte civico 4' NaturaIncidente='Investimento di pedone'
+			 ParticolaritaStrade='Rettilineo' TipoStrada='Due carreggiate' FondoStradale='Asciutto' Pavimentazione='Asfaltata'
+			 Segnaletica='Verticale ed orizzontale' CondizioneAtmosferica='Nuvoloso' Traffico='Normale' Visibilita='Buona'
+			 Illuminazione='Ore Diurne' NUM_FERITI='1' NUM_RISERVATA='0' NUM_MORTI='0' NUM_ILLESI='1' CONFERMATO='False'/>
+
+
+e come vedi si riesce ad estrarre molte informazioni sul fattaccio.
+
+In teoria anche il quarto file xml_persone_1apr-18giu_2013 dovrebbe collegarsi tramite "IDProtocollo" e/o "IDVeicolo" però non sono riuscito a trovare una corrispondeza provando in 5 minuti :)
