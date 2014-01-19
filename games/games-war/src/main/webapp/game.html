@@ -21,6 +21,9 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
+		
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzM1v79rsT7CczWHKNkrTUAj86408XeXc&sensor=false"></script>
+		<script src="static/js/game.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -36,28 +39,21 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="game.html">Game</a></li>
+						<li class="active"><a href="game.html">Game</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
 			</div>
 		</div>
 	
-		<div class="container">
-	
-			<div class="starter-template">
-				<h1>Home Page</h1>
-				<p class="lead">
-					Use this document as a way to quickly start any new project.<br>
-					All you get is this text and a mostly barebones HTML document.
-				</p>
-			</div>
-	
+		<div>
+			<div style="height: 630px;" id="map-canvas"></div>
 		</div>
-		<!-- /.container -->
-	
+		
+		
+		
 	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="static/jquery/jquery-1.10.2.min.js"></script>
