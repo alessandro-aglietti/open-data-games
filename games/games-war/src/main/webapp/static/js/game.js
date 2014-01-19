@@ -14,7 +14,7 @@ function openBaloon(m) {
 	var infowindow;
 
 	if (!GLOBAL.MARKERS[m.payload.key].infoWindow) {
-		// la info window non è mai stata creata
+		// la info window non  mai stata creata
 		infowindow = new google.maps.InfoWindow({
 			content : GLOBAL.MARKERS[m.payload.key].m.payload.info
 		});
